@@ -1,0 +1,3 @@
+mysql> create database matel_sheet_db_v1; -- Create the new database
+mysql> create user 'msd'@'localhost' identified by 'msd'; -- Creates the user
+mysql> 'msd'@'localhost' -- Gives all the privileges to the new user on the newly created database

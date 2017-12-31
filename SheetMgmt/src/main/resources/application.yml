@@ -1,0 +1,16 @@
+#server port
+server:
+  port: 8070
+
+spring:
+  profiles: DEV
+
+ #database connection configuration  
+  datasource:
+    url: jdbc:postgresql://localhost:5432/world_region
+    username: patric
+    password: patric
+    driverClassName: org.postgresql.Driver
+    platform: postgres
+    
+    
